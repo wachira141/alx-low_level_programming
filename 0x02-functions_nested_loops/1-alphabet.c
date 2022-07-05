@@ -1,4 +1,4 @@
-#nclud "main.h"
+#nclude "main.h"
 /**
  * print_alphabet - print lowercase
  *
