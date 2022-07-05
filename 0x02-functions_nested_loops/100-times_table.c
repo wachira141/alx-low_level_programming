@@ -18,6 +18,7 @@ kl = i * j;
 _putchar(44);
 _putchar(32);
 if (kl <= 9)
+{
 _putchar(32);
 _putchar(32);
 _putchar(kl + 48);
