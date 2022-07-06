@@ -1,7 +1,6 @@
 #include "main.h"
 /**
 *main - function positive_or_negative
-* Description - positive or negative
 * Return: 0
 */
 int main(void)
