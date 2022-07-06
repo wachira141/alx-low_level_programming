@@ -4,14 +4,10 @@
 * Description - positive or negative
 * Return: 0
 */
-int positive_or_negative(void)
+int main(void)
 {
 int i;
-if (i > 0)
-printf('%d is positive\n', i);
-else if (i < 0)
-printf('%d is negative\n', i);
-else
-printf('%d is 0\n', i);
+i = 0;
+positive_or_negative(i);
 return (0);
 }
