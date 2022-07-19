@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * _memcpy - append n bytes of memory with a constant value
  * @dest: destination memory area
