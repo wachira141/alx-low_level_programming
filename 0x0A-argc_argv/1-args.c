@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * main - Prints numebr of arguments passed to it
  * @argc: argument count
  * @argv: argument vector
