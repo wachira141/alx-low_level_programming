@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
- * @argc - array length
- * @argv - arguments passed
- *
- * Return -Always 0 (Success)
- */
-int main(int argc, char *argv[])
+ *  * main - prints name of program
+ *   * @argc: number of arguments
+ *    * @argv: pointer to arguments
+ *     * Return: 0
+ *      */
+
+int main(int argc, char **argv)
 {
-printf("%s\n", *argv[0]);
+printf("%s\n", *argv);
 (void)argc;
 
 return (0);
