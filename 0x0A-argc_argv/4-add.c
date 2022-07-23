@@ -18,8 +18,10 @@ int main(int argc, char *argv[])
 	{
 		for (r = 0; (argv[m])[r] != '\0'; r += 1)
 		{
-			if (((argv[m])[r] - '0') >= 0 && ((argv[m])[r] - '0') <= 9)
+if (((argv[m])[r] - '0') >= 0 && ((argv[m])[r] - '0') <= 9)
+{
 					continue;
+}
 					else
 					{
 					printf("Error\n");
