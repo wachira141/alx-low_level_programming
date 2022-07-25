@@ -32,4 +32,5 @@ if (c < i)
 else
 	a[c] = s2[d++];
 }
+return (a);
 }
