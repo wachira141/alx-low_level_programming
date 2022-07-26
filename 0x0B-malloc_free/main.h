@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
+#define END '\0'
+#define BYTE 8
 char *create_array(unsigned int size, char c);
 int _putchar(char c);
 char *_strdup(char *str);
