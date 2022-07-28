@@ -33,4 +33,5 @@ for (j = 0; j <= len2; j++)
 	newstr[i + j] = s2[j];
 
 newstr[i + j] = '\0';
+return (newstr);
 }
