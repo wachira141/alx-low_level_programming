@@ -20,7 +20,7 @@ s1 = "";
 if (s2 == NULL)
 	s2 = "";
 
-len2 = (unsigned int)strlen(s1);
+len2 = strlen(s1);
 newstr = malloc((len2 + n + 1) * sizeof(char));
 if (newstr == NULL)
 	return (NULL);
