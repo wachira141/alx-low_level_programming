@@ -18,7 +18,7 @@ mem = malloc(nmemb * size);
 if (!mem)
 	return (NULL);
 
-for (i = o; i < nmemb; i++)
+for (i = 0; i < nmemb; i++)
 mem[i] = 0;
 
 return (mem);
