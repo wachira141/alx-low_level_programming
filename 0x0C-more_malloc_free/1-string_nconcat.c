@@ -4,7 +4,8 @@
  * string_nconcat - function to concat 2 characters
  * @s1: the first string
  * @s2: the second string
- *@n: the number of int
+ * @n: the number of int
+ *
  * Return: return pointer to newly alloc space
  */
 
@@ -16,22 +17,22 @@ int i, j, len2;
 len2 = n;
 if (!s1)
 s1 = "";
+
 if (!s2)
 	s2 = "";
 
-if (n >= (int) strlen(s2))
-	len2 = strlen(s2);
-
-	newstr = malloc(sizeof(char) * (strlen(s1) + len2 + 1));
-if (!newstr)
+len2 = (unsigned int)_strlen(s1);
+newstr = malloc((len2 + n + 1) * sizeof(char));
+if (newstr == NULL)
 	return (NULL);
+for (i = 0, j = 0; i < (len2 + n); i++)
+{
+	if (i < len2)
+		newstr[i] = s1[i];
+	else
+		newstr[i] = s2[j++];
+}
+newstr[i] = '\0';
 
-for (i = 0; i <= s1[i] != '\0'; i++)
-	newstr[i] = s1[i];
-
-for (j = 0; j <= len2; j++)
-	newstr[i + j] = s2[j];
-
-newstr[i + j] = '\0';
 return (newstr);
 }
