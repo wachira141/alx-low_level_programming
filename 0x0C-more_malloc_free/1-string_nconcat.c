@@ -1,37 +1,48 @@
-#include "main.h"
-
+#include <main.h>
 /**
- * string_nconcat - function to concat 2 characters
- * @s1: the first string
- * @s2: the second string
- * @n: the number of int
+ * string_nconcat - concatinate 2 strings
+ * @s1: the string to concat
+ * @s2: string 2
+ * @n: number of bytes
  *
- * Return: return pointer to newly alloc space
+ * Return: null if it fails else pointer
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-char *newstr;
-int i, j, len2;
+	char *str;
+	unsigned int len = 0, m = 0, k;
 
-if (s1 == NULL)
-s1 = "";
+	if (s1 == NULL)
+		s1 = "";
 
-if (s2 == NULL)
-	s2 = "";
+	if (s2 == NULL)
+		s2 = "";
 
-len2 = strlen(s1);
-newstr = malloc((len2 + n + 1) * sizeof(char));
-if (newstr == NULL)
-	return (NULL);
-for (i = 0, j = 0; i < (len2 + n); i++)
-{
-	if (i < len2)
-		newstr[i] = s1[i];
-	else
-		newstr[i] = s2[j++];
-}
-newstr[i] = '\0';
+	while (s1[len] != '\0')
+	{
+		len++;
+	}
 
-return (newstr);
+	while (s2[m] != '\0')
+	{
+		m++;
+	}
+
+	if (n > m)
+	{
+		return (NULL);
+	}
+
+	for (k = 0; k < len; k++)
+	{
+		str[k] = s1[k];
+	}
+
+	for (k = 0; k < (len + n); k++)
+	{
+		str[k] = s2[k - len];
+	}
+	str[k] = '\0';
+
+	return (str);
 }
