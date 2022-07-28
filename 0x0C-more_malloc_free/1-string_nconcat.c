@@ -22,7 +22,7 @@ if (!s2)
 if (n >= (int) strlen(s2))
 	len2 = strlen(s2);
 
-	newstr = malloc(sizeof(*newstr) * (strlen(s1) + len2 + 1));
+	newstr = malloc(sizeof(char) * (strlen(s1) + len2 + 1));
 if (!newstr)
 	return (NULL);
 
