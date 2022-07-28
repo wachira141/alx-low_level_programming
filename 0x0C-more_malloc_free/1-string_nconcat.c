@@ -14,13 +14,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 char *newstr;
 int i, j, len2;
 
-if (S1 == NULL)
+if (s1 == NULL)
 s1 = "";
 
 if (s2 == NULL)
 	s2 = "";
 
-len2 = (unsigned int)_strlen(s1);
+len2 = (unsigned int)strlen(s1);
 newstr = malloc((len2 + n + 1) * sizeof(char));
 if (newstr == NULL)
 	return (NULL);
