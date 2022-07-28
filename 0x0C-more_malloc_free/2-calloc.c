@@ -8,13 +8,14 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-unsigned int i, *mem;
+unsigned int i;
+int *mem;
 
 if (nmemb <= 0 || size <= 0)
 	return (NULL);
 
 mem = malloc(nmemb * size);
-if (!mem)
+if (mem == NULL)
 	return (NULL);
 
 for (i = 0; i < nmemb; i++)
