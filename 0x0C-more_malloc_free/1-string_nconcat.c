@@ -30,7 +30,7 @@ for (i = 0; i <= strlen(s1); i++)
 	newstr[i] = s1[i];
 
 for (j = 0; j <= len2; j++)
-	newstr[i + j] = s2[j];
+	newstr[i + j + 1] = s2[j];
 
 newstr[i + j] = '\0';
 }
