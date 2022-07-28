@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
  * string_nconcat - concatinate 2 strings
  * @s1: the string to concat
@@ -7,6 +10,7 @@
  *
  * Return: null if it fails else pointer
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *s;
