@@ -1,8 +1,8 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * init_dog - function to initialize a variable of ty struct dog
- * @dog: structure dog initialized
+ * init_dog - function to initialized
+ * @d: structure dog initialized
  * @name: name passed as argument by value
  * @age: age of the dog
  * @owner: owner of the dog
