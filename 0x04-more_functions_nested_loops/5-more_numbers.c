@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * more_numbers - func to print
- * Return: return value 
+ * Return: return value
  */
 void more_numbers(void)
 {
