@@ -1,4 +1,4 @@
-#include "dog.h"i
+#include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -12,8 +12,7 @@ if (d != NULL)
 	printf("Name: ");
 	d->name == NULL ? printf("null\n") : printf("%s\n", d->name);
 	printf("Owner: ");
-	d->owner == Null ? printf("null\n") : printf("%s\n", d->owner);
-	printf("Age: ");
-	d->age == NULL ? printf("null\n") : prinf("%f\n", d->age);
+	d->owner == NULL ? printf("null\n") : printf("%s\n", d->owner);
+printf("Age: %f\n", d->age);
 }
 }
