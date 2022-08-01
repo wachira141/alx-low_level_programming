@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlibh>
+#include <stdlib.h>
 /**
  * print_line - func to print new line
  * @n: number of times
