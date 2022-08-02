@@ -19,5 +19,5 @@ for (c = (int) sqrt(num); c > 2; c++)
 		break;
 	}
 }
-return (0)i;
+return (0);
 }
