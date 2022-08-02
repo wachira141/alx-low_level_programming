@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 /**
  * main - entry point
  * Description: find and print largest prime factor
@@ -18,5 +19,5 @@ for (c = (int) sqrt(num); c > 2; c++)
 		break;
 	}
 }
-return (0);
+return (0)i;
 }
