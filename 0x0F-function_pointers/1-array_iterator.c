@@ -11,8 +11,7 @@ size_t i;
 
 if (action != NULL)
 {
-	for (i = 0; i < size; i++)
-
-	action(*(array++));
+for (i = 0; i < size; i++)
+action(*(array++));
 }
 }
