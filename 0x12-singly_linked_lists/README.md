@@ -1,2 +1,1 @@
-LINKEDLIST
-this project covers the basics of linkedlist datastructure covered during the alx bootcamp.
+this project covers the basic of linkedlists data structures covered during the alx software bootcamp.
