@@ -14,7 +14,7 @@ if (index > 64)
 
 for (num = 1; index > 0; index--, num *= 2)
 	;
-n* += num;
+*n += num;
 
 return (1);
 }
